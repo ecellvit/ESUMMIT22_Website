@@ -1,0 +1,42 @@
+.reg {
+  width: 92vw;
+  max-width: 1300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background: #edb17b;
+  border-radius: 40px;
+  margin: 10rem auto 5rem auto;
+}
+
+.reg-head {
+  font-weight: 800;
+  font-size: 50px;
+  color: black;
+}
+.reg-para {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+  .reg {
+    width: 100vw;
+    border-radius: 0;
+    margin: 8rem auto 3rem auto;
+  }
+  .reg-head {
+    font-weight: 700;
+    font-size: 32px;
+  }
+  .reg-para {
+    font-weight: 600;
+    font-size: 18px;
+  }
+}

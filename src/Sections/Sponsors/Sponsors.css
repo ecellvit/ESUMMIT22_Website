@@ -1,0 +1,72 @@
+.past-sponsors {
+  margin: 100px auto;
+}
+.past-sponsors .sponsor-head {
+  width: 100vw;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  padding: 50px 10px;
+}
+
+.past-sponsors .sponsor-head span {
+  position: relative;
+}
+
+.grid-container a {
+  text-align: center;
+}
+.past-sponsors .grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.past-sponsors .grid-item {
+  display: flex;
+  width: 16%;
+  height: 200px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.past-sponsors .grid-item img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.grid-item a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 100%;
+  border-radius: 8px;
+  padding: 10px;
+  background: white;
+}
+
+@media screen and (max-width: 1600px) {
+  .past-sponsors .grid-item {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .past-sponsors .grid-item {
+    width: 33%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .past-sponsors .grid-item {
+    width: 45%;
+    height: auto;
+    padding: 30px 10px;
+  }
+  .past-sponsors .sponsor-head {
+    font-size: 30px;
+    padding-top: 50px;
+  }
+}

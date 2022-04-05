@@ -1,0 +1,265 @@
+@import "utilities.css";
+
+:root {
+  --primary: #002a4c;
+  --dark: #161616;
+  --second: #1a5678;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: -22px 0;
+  width: 100%;
+  height: 100vh;
+}
+#blue-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(155.87% 351.43% at 0% 100%, #414141 0%, #000000 100%);
+  clip-path: url("#myClip");
+}
+
+.content {
+  text-align: left;
+  margin: 9%;
+  width: fit-content;
+  font-size: 1.5vw;
+}
+
+.content .top {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 1.2em;
+  margin-bottom: 0.5rem;
+}
+.content h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3.8em;
+  line-height: 1.2em;
+  color: #FFCD76;
+ 
+  margin-bottom: 0.3em;
+}
+
+.btn {
+  padding: 0.8rem 3rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid transparent;
+  outline: none;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: linear-gradient(90.76deg, #FFCD76 0.72%, #CF942E 56.46%, #FFCD76 105.03%);
+  color: #fff;
+  border-radius: 26px;
+  margin-top: 10px;
+}
+
+.btn-primary:hover {
+  background: transparent;
+  border-color: #edb17b;
+  color: #edb17b;
+  transition: all 0.5s ease;
+}
+.btn2 {
+  padding: 0.8rem 3rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid transparent;
+  outline: none;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.btn2-primary {
+  background: #7289da;
+  color: #fff;
+  border-radius: 26px;
+  margin-top: 10px;
+}
+
+.btn2-primary:hover {
+  background: transparent;
+  border-color: #7289da;
+  color: #7289da;
+  transition: all 0.5s ease;
+}
+.bg{
+  position: absolute;
+  left: 84%;
+  top: 10%;
+  width: 16%;
+
+}
+
+.rightcode {
+  display: none !important;
+  margin-right: 20px;
+  font-size: 32px !important;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.content .bottom {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 1.2rem;
+  margin-bottom: 2em;
+  color: rgba(255, 255, 255, 0.52);
+}
+
+#black-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../Assets/show.jpg");
+  background-size: auto 100%;
+  background-position: right;
+  background-attachment: fixed;
+  clip-path: url("#myCliped");
+}
+nav .lefty img {
+  width: 80px;
+}
+nav .righty {
+  margin-top: 1.5rem;
+  margin-right: 25%;
+}
+nav .righty a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 2rem;
+  font-size: 1.3rem;
+  position: relative;
+  cursor: pointer;
+}
+
+nav .righty a:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  width: 0;
+  bottom: -5px;
+  background: #fff;
+  height: 2px;
+  transition-property: width;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+nav .righty a:hover:after {
+  left: 0;
+  right: auto;
+  width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+  .content {
+    font-size: 1.5vw;
+  }
+  nav .righty a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 2rem;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    height: auto;
+  }
+  .bg{
+    display: none;
+  }
+  #blue-bg,
+  #black-bg {
+    position: relative;
+  }
+  .content {
+    margin: 2rem auto;
+    font-size: 18px;
+  }
+  .content h1 {
+    font-size: 1rem;
+  }
+
+  .content .top {
+    margin-bottom: 0.5rem;
+  }
+  .content h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.6em;
+    line-height: 1.2em;
+    color: #edb17b;
+    margin-bottom: 0.3em;
+  }
+  nav .righty {
+    margin-right: 1.5rem;
+  }
+  nav .righty a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 2rem;
+    margin-right: 0;
+    font-size: 1rem;
+  }
+  #blue-bg {
+    height: 70vh;
+    clip-path: url("#myClipS");
+  }
+  #black-bg {
+    margin-top: -12vh;
+    height: 42vh;
+    background-attachment: initial;
+    background-size: 100% auto;
+    background-position: bottom;
+    clip-path: url("#myClipedS");
+  }
+}
+
+@media screen and (min-width:01px) and (max-width: 576px) {
+  .content {
+    font-size: 3vw;
+    margin: 12vh 20vw auto 20px;
+  }
+  .content h1 {
+    font-size: 3.3em;
+  }
+  .content .top {
+    font-size: 1.2em;
+  }
+  .btn {
+    padding: 0.3rem 1rem;
+  }
+  .btn2 {
+    padding: 0.3rem 1rem;
+  }
+  nav .righty {
+    display: none;
+  }
+  .rightcode {
+    display: inline-block !important;
+  }
+  nav .lefty img {
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+}
+
+
+/* DISCORD BUTTON */
+
