@@ -69,9 +69,9 @@ function Landing() {
               The 5th edition of the biggest business fest in South India
             </p>
             <div>
-              <a href="https://discord.gg/mtaDWMDPwH">
+              {/* <a href="https://discord.gg/mtaDWMDPwH">
                 <button className="btn btn-primary">Register</button>
-              </a>{" "}
+              </a>{" "} */}
               {/* <Link to="events">
                 <button className="btn btn-primary">View Events</button>
               </Link> */}
