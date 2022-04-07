@@ -46,6 +46,21 @@
   background-image: url("../../Assets/visionx\ icon.png");
 }
 
+.StockShire{
+  background-image: url("../../Assets/stock.jpg");
+}
+.StockShire .img {
+  background-image: url("../../Assets/shire.png");
+}
+.Impetus{
+  background-image: url("../../Assets/pitch.jpg");
+
+}
+.Impetus .img {
+  color: #fff;
+  background-image: url("../../Assets/impetus.png");
+  color: #fff;
+}
 .Bootstrap {
   background-image: url("../../Assets/bw.jpg");
 }

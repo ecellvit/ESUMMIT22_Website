@@ -21,13 +21,23 @@ function Event() {
             <ul className="rb">
              
               <li>
-                <div className="list-title">17th April -- Day 1</div>
+                <div className="list-title">18th April -- Day 1</div>
                 <div data-aos="flip-left">
                   <EventCard
                     head="E-Talk"
                     link="https://dare2compete.com/o/2iWdVzc?refId=SXRkCzq"
                     // reg="end"
-                    content="Prominent speakers from the entrepreneurial world deliver a talk to promote the ethos of entrepreneurship in the campus. The session is open to the audience's questions, thus furnishing their minds with a clearer picture of entrepreneurship."
+                    content="Like a leitmotif, there exists the ubiquitous fanfare about the business coliseum. Veterans for the improvement of the entrepreneurial milieu embrace the younger minds equipped to ideate with their experiential journeys.
+                    E-Talk brings an opportunity for the eminent young minds for bringing ambitious solutions in the arena of new age thinking."
+                  />
+                </div>
+                <div data-aos="flip-right">
+                  <EventCard
+                    head="StockShire"
+                    link="https://dare2compete.com/o/hsu3tZ8?refId=wSYoN41"
+                    reg="end"
+                    content="From keeping a tab on the prices to finding the best value for money, a trader is made by its intention of finding the finest and the best performing stocks. 
+                    A plethora of stocks to balance and jigger the portfolios following the rise and fall at the NSE, StockShire is a real time stock simulation providing cognizance of the stock exchange and the trading forum."
                   />
                 </div>
               </li>
@@ -46,14 +56,19 @@ function Event() {
                    "
                   />
                 </div>
-                {/* <div data-aos="flip-right">
+                <div data-aos="flip-right">
                   <EventCard
-                    head="E-Hack"
-                    link="https://ehack.ecellvit.com/"
-                    reg="start"
-                    content="E-Hack is an overnight Hackathon that aims to find the leaders of tomorrow. Challenging participants to come up with effective solutions to real-world problems, this event is one comprehensive test of grit, resilience and innovation."
+                    head="VisionX"
+                    link="https://dare2compete.com/o/hsu3tZ8?refId=wSYoN41"
+                    reg="end"
+                    content="Visualize a single platform, with all the bibles of Business accessible. 
+                    A workshop that starts from the E and ends at the P of Entrepreneurship. 
+                    A verbally orated manual, VisionX guides every aspiring entrepreneur through all the possibly thinkable obstacles of the tricky terrain of becoming a professional. 
+                    
+                    A tech-biz workshop providing hands on experience of the factors mentioned above, VisionX is all that and more!"
                   />
-                </div> */}
+                </div>
+               
               </li>
               <li>
                 <div className="list-title">20th April -- Day 3</div>
@@ -67,12 +82,21 @@ function Event() {
                 </div> */}
                 <div data-aos="flip-right">
                   <EventCard
-                    head="Vision-X"
+                    head="Impetus"
                     link="https://dare2compete.com/o/hsu3tZ8?refId=wSYoN41"
                     reg="end"
-                    content="Innoventure is a business simulation that gives participants a platform to develop skills like product development and business analysis while inculcating knowledge about market trends and economic concepts that prevail in day-to-day applications."
+                    content="Starting off with a fresh slate, the business plans are ideated under the scrutiny of the investors, concepts materialised through presentations leading to the creation of an unequalled venture proposition. 
+                    E-Cell, VIT brings to you Impetus, a pitch deck competition designed in a way to make the inner entrepreneurs of the young minds take over their normal selves and blooming out of the chrysalis"
                   />
                 </div>
+                {/* <div data-aos="flip-right">
+                  <EventCard
+                    head="E-Hack"
+                    link="https://ehack.ecellvit.com/"
+                    reg="start"
+                    content="E-Hack is an overnight Hackathon that aims to find the leaders of tomorrow. Challenging participants to come up with effective solutions to real-world problems, this event is one comprehensive test of grit, resilience and innovation."
+                  />
+                </div> */}
               </li>
               {/* <li>
                 <div className="list-title">19th April -- Day 3</div>

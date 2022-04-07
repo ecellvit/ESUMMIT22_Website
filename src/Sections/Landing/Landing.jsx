@@ -8,7 +8,7 @@ import "./Landing.css";
 import Sidebar from "../../Components/Sidebar/Sidebar";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
 
 function Landing() {
   useEffect(() => {
