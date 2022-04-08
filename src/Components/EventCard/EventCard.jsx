@@ -20,15 +20,15 @@ function EventCard(props) {
             <span>{props.content.substr(0, 100)}</span>
             <span className="extra">{props.content.substr(100)}</span>
           </p>
-          {/* {props.link === "" ? (
+          {props.link === "" ? (
             <button className={`btn-events ${props.reg}`}>
-              {props.reg === "start" ? "Coming soon" : "Registration Closed"}
+              {props.reg === "start" ? "Coming soon" : "Coming Soon"}
             </button>
           ) : (
             <a href={props.link} target="_blank" rel="noreferrer">
-              <button className={`btn-events pointerhover`}>{props.reg === "start" ? "Register" : "Registration Closed"}</button>
+              <button className={`btn-events pointerhover`}>{props.reg === "start" ? "Register" : "Coming Soon"}</button>
             </a>
-          )} */}
+          )}
         </div>
       </div>
     </div>

@@ -1,4 +1,4 @@
-import IMG from "../../Assets/esum.png";
+import IMG from "../../Assets/logo_dark.svg";
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
