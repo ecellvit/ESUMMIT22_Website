@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import LOGO from "../../Assets/logo.png";
 import Burger from "../../Components/Burger/Burger";
 import Menu from "../../Components/Menu/Menu";
-import bg from "../../Assets/bg_logo.png";
+import bg from "../../Assets/land.png";
 import "vscode-codicons/dist/codicon.css";
 import "./Landing.css";
 import Sidebar from "../../Components/Sidebar/Sidebar";
