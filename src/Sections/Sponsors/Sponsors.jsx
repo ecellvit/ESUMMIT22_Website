@@ -38,7 +38,7 @@ function Sponsors() {
   return (
     <div className="past-sponsors" id="sponsors">
       <div className="sponsor-head">
-        <span>Sponsors</span>
+        <span> Past Sponsors</span>
       </div>
       <div className="grid-container">
         <div data-aos="flip-up" className="grid-item">

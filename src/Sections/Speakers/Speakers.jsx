@@ -18,7 +18,7 @@ function Speakers() {
   return (
     <div id="speakers">
       <div data-aos="flip-left" className="separator">
-        <span>Speakers</span>
+        <span>Past Speakers</span>
       </div>
       <div className="carousel">
         <Carousel
