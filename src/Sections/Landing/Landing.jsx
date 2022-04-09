@@ -8,7 +8,7 @@ import "./Landing.css";
 import Sidebar from "../../Components/Sidebar/Sidebar";
 import Aos from "aos";
 import "aos/dist/aos.css";
-// import { Link } from "react-scroll";
+import { Link } from "react-scroll";
 
 function Landing() {
   useEffect(() => {
@@ -72,9 +72,9 @@ function Landing() {
               {/* <a href="https://discord.gg/mtaDWMDPwH">
                 <button className="btn btn-primary">Register</button>
               </a>{" "} */}
-              {/* <Link to="events">
+              <Link to="events">
                 <button className="btn btn-primary">View Events</button>
-              </Link> */}
+              </Link>
             </div>
             <div>
             <img src={bg} alt="bg_logo" className="bg" />
