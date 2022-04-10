@@ -22,6 +22,7 @@
   height: 100%;
   background: radial-gradient(155.87% 351.43% at 0% 100%, #414141 0%, #000000 100%);
   clip-path: url("#myClip");
+  overflow: hidden;
 }
 
 .content {
@@ -96,10 +97,9 @@
 }
 .bg{
   position: absolute;
-  left: 70%;
-  top: 18%;
-  width: 25%;
-
+  right: 2%;
+  top: -2%;
+  width: 40%;
 }
 
 .rightcode {
@@ -178,19 +178,27 @@ nav .righty a:hover:after {
   }
 }
 
+@media screen and (max-width: 991px) and (orientation:portrait) {
+  .bg {
+    width: 50%;
+    top: 40%;
+    right: 5%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .container {
     height: auto;
   }
-  .bg{
+  /* .bg{
     display: none;
-  }
+  } */
   #blue-bg,
   #black-bg {
     position: relative;
   }
   .content {
-    margin: 2rem auto;
+    margin: 2rem 9%;
     font-size: 18px;
   }
   .righty {
@@ -217,8 +225,8 @@ nav .righty a:hover:after {
   nav .righty a {
     color: #fff;
     text-decoration: none;
-    margin-left: 2rem;
-    margin-right: 0;
+    /* margin-left: 2rem;
+    margin-right: 0; */
     font-size: 1rem;
   }
   #blue-bg {
