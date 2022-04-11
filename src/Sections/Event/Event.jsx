@@ -61,7 +61,7 @@ function Event() {
                 <div data-aos="flip-right">
                   <EventCard
                     head="VisionX"
-                    link="https://bit.ly/ImpetusRegistartion"
+                    link="https://bit.ly/Vision-XRegistration"
                     tagline="Envisioning a utopian odyssey of pioneering technology"
                     reg="start"
                     content="Visualize a single platform, with all the bibles of Business accessible. 
