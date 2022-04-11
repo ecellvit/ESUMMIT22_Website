@@ -65,6 +65,9 @@
 .Emanate{
   background-image: url("../../Assets/emanate.jpg");
 }
+.Emanate .img {
+  background-image: url("../../Assets/emanate_logo.png");
+}
 .Bootstrap {
   background-image: url("../../Assets/bw.jpg");
 }
