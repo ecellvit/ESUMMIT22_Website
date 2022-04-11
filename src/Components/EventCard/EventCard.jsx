@@ -16,6 +16,7 @@ function EventCard(props) {
             <h1>{props.head}</h1>
             <div className="img"></div>
           </div>
+          <h3>{props.tagline}</h3>
           <p>
             <span>{props.content.substr(0, 100)}</span>
             <span className="extra">{props.content.substr(100)}</span>

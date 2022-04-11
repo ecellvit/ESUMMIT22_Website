@@ -26,6 +26,10 @@ function Event() {
                   <EventCard
                     head="E-Talk"
                     link="https://bit.ly/E-TalkRegistration"
+<<<<<<< HEAD
+=======
+                    tagline="An aural expedition into the entrepreneurial arena"
+>>>>>>> 90943d8a8bb3fa95a4fa0f56d063e32e60a1b52b
                     reg="start"
                     content="Like a leitmotif, there exists the ubiquitous fanfare about the business coliseum. Veterans for the improvement of the entrepreneurial milieu embrace the younger minds equipped to ideate with their experiential journeys.
                     E-Talk brings an opportunity for the eminent young minds for bringing ambitious solutions in the arena of new age thinking."
@@ -35,6 +39,7 @@ function Event() {
                   <EventCard
                     head="StockShire"
                     link="https://bit.ly/3DX0Kic"
+                    tagline="Explore the Investor within you"
                     reg="start"
                     content="From keeping a tab on the prices to finding the best value for money, a trader is made by its intention of finding the finest and the best performing stocks. 
                     A plethora of stocks to balance and jigger the portfolios following the rise and fall at the NSE, StockShire is a real time stock simulation providing cognizance of the stock exchange and the trading forum."
@@ -48,6 +53,10 @@ function Event() {
                   <EventCard
                     head="Innoventure"
                     link="https://bit.ly/InnoventureRegistration"
+<<<<<<< HEAD
+=======
+                    tagline="Time to initiate and invent"
+>>>>>>> 90943d8a8bb3fa95a4fa0f56d063e32e60a1b52b
                     reg="start"
                     content="A multi - level business competition that shall put your entrepreneurial wit and grit to test with challenging situations and problem statements at every step.
 
@@ -59,7 +68,12 @@ function Event() {
                 <div data-aos="flip-right">
                   <EventCard
                     head="VisionX"
+<<<<<<< HEAD
                     link="https://bit.ly/ImpetusRegistartion"
+=======
+                    link="https://bit.ly/Vision-XRegistration"
+                    tagline="Envisioning a utopian odyssey of pioneering technology"
+>>>>>>> 90943d8a8bb3fa95a4fa0f56d063e32e60a1b52b
                     reg="start"
                     content="Visualize a single platform, with all the bibles of Business accessible. 
                     A workshop that starts from the E and ends at the P of Entrepreneurship. 
@@ -84,6 +98,10 @@ function Event() {
                   <EventCard
                     head="Impetus"
                     link="https://bit.ly/ImpetusRegistartion"
+<<<<<<< HEAD
+=======
+                    tagline="Where passion drives innovation"
+>>>>>>> 90943d8a8bb3fa95a4fa0f56d063e32e60a1b52b
                     reg="start"
                     content="Starting off with a fresh slate, the business plans are ideated under the scrutiny of the investors, concepts materialised through presentations leading to the creation of an unequalled venture proposition. 
                     E-Cell, VIT brings to you Impetus, a pitch deck competition designed in a way to make the inner entrepreneurs of the young minds take over their normal selves and blooming out of the chrysalis"

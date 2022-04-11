@@ -18,14 +18,15 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
-  text-align: center;
+  /* text-align: center; */
   border-radius: 15px;
   margin: 30px 20px 0px 20px;
+  box-shadow: 4px 4px 10px rgb(0, 0, 0/ 25%);
 }
 .list-text-inner {
   border-radius: 15px;
   padding: 40px 40px 80px 40px;
-  background: linear-gradient(0deg, #D1A653 36.98%, rgba(1, 42, 76, 0) 100%);
+  background: linear-gradient(0deg, #1b1b1b 36.98%, rgba(1, 42, 76, 0) 100%);
 }
 
 .grid {
@@ -108,7 +109,12 @@
   width: 100%;
   text-align: left;
   padding-right: 80px;
-  margin-bottom: 50px;
+  margin-bottom: 5px;
+}
+
+.list-text h3 {
+  margin-bottom: 30px;
+  font-style: italic;
 }
 
 .img {
@@ -189,14 +195,14 @@
 
 .btn-events {
   position: absolute;
-  background: #edb17b;
-  border: 1px solid #edb17b;
+  background: transparent;
+  border: 3px solid #fff;
   box-sizing: border-box;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 26px;
-  padding: 10px 40px;
+  box-shadow: 4px 4px 10px rgb(0, 0, 0/ 25%);
+  border-radius: 12px;
+  padding: 10px 32px;
   color: #fff;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   font-weight: 700;
   outline: none;
   bottom: 20px;
@@ -209,7 +215,7 @@
 }
 
 .btn-events:hover {
-  background: #edb17bef;
+  background: #edb17b;
 }
 
 .btn-events:focus,
