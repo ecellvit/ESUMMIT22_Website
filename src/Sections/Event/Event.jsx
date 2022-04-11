@@ -61,7 +61,7 @@ function Event() {
                 <div data-aos="flip-right">
                   <EventCard
                     head="VisionX"
-                    link="https://bit.ly/Vision-XRegistration"
+                    link="https://bit.ly/ImpetusRegistartion"
                     tagline="Envisioning a utopian odyssey of pioneering technology"
                     reg="start"
                     content="Visualize a single platform, with all the bibles of Business accessible. 
@@ -93,14 +93,15 @@ function Event() {
                     E-Cell, VIT brings to you Impetus, a pitch deck competition designed in a way to make the inner entrepreneurs of the young minds take over their normal selves and blooming out of the chrysalis"
                   />
                 </div>
-                {/* <div data-aos="flip-right">
+                <div data-aos="flip-right">
                   <EventCard
-                    head="E-Hack"
-                    link="https://ehack.ecellvit.com/"
-                    reg="start"
-                    content="E-Hack is an overnight Hackathon that aims to find the leaders of tomorrow. Challenging participants to come up with effective solutions to real-world problems, this event is one comprehensive test of grit, resilience and innovation."
+                    head="Emanate"
+                    link=""
+                    tagline="Business Plan Competition"
+                    reg="end"
+                    content="“Emanate” is a national level competition being organised by E-Cell, VIT in collaboration with the Ministry of Electronics and IT and VIT-TBI."
                   />
-                </div> */}
+                </div>
               </li>
               {/* <li>
                 <div className="list-title">19th April -- Day 3</div>
