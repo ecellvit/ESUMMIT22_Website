@@ -25,9 +25,9 @@ function Event() {
                 <div data-aos="flip-left">
                   <EventCard
                     head="E-Talk"
-                    link=""
+                    link="https://bit.ly/E-TalkRegistration"
                     tagline="An aural expedition into the entrepreneurial arena"
-                    // reg="end"
+                    reg="start"
                     content="Like a leitmotif, there exists the ubiquitous fanfare about the business coliseum. Veterans for the improvement of the entrepreneurial milieu embrace the younger minds equipped to ideate with their experiential journeys.
                     E-Talk brings an opportunity for the eminent young minds for bringing ambitious solutions in the arena of new age thinking."
                   />
@@ -49,9 +49,9 @@ function Event() {
                 <div data-aos="flip-left">
                   <EventCard
                     head="Innoventure"
-                    link=""
+                    link="https://bit.ly/InnoventureRegistration"
                     tagline="Time to initiate and invent"
-                    // reg="end"
+                    reg="start"
                     content="A multi - level business competition that shall put your entrepreneurial wit and grit to test with challenging situations and problem statements at every step.
 
                     To solve these, one must strategize, manage the crisis at hand and get their numbers right. And only then can they claim the crown of Innoventure.
@@ -62,9 +62,9 @@ function Event() {
                 <div data-aos="flip-right">
                   <EventCard
                     head="VisionX"
-                    link=""
+                    link="https://bit.ly/Vision-XRegistration"
                     tagline="Envisioning a utopian odyssey of pioneering technology"
-                    // reg="end"
+                    reg="start"
                     content="Visualize a single platform, with all the bibles of Business accessible. 
                     A workshop that starts from the E and ends at the P of Entrepreneurship. 
                     A verbally orated manual, VisionX guides every aspiring entrepreneur through all the possibly thinkable obstacles of the tricky terrain of becoming a professional. 
@@ -87,9 +87,9 @@ function Event() {
                 <div data-aos="flip-right">
                   <EventCard
                     head="Impetus"
-                    link=""
+                    link="https://bit.ly/ImpetusRegistartion"
                     tagline="Where passion drives innovation"
-                    // reg="Coming Soon"
+                    reg="start"
                     content="Starting off with a fresh slate, the business plans are ideated under the scrutiny of the investors, concepts materialised through presentations leading to the creation of an unequalled venture proposition. 
                     E-Cell, VIT brings to you Impetus, a pitch deck competition designed in a way to make the inner entrepreneurs of the young minds take over their normal selves and blooming out of the chrysalis"
                   />
