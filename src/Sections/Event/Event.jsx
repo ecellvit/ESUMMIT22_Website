@@ -25,9 +25,9 @@ function Event() {
                 <div data-aos="flip-left">
                   <EventCard
                     head="E-Talk"
-                    link="https://bit.ly/E-TalkRegistration"
+                    
                     tagline="An aural expedition into the entrepreneurial arena"
-                    reg="start"
+                    reg="end"
                     content="Like a leitmotif, there exists the ubiquitous fanfare about the business coliseum. Veterans for the improvement of the entrepreneurial milieu embrace the younger minds equipped to ideate with their experiential journeys.
                     E-Talk brings an opportunity for the eminent young minds for bringing ambitious solutions in the arena of new age thinking."
                   />
@@ -96,9 +96,9 @@ function Event() {
                 <div data-aos="flip-right">
                   <EventCard
                     head="Emanate"
-                    link=""
+                    
                     tagline="Business Plan Competition"
-                    reg="end"
+                    ans="close"
                     content="“Emanate” is a national level competition being organised by E-Cell, VIT in collaboration with the Ministry of Electronics and IT and VIT-TBI."
                   />
                 </div>
