@@ -23,7 +23,8 @@ function EventCard(props) {
           </p>
           {props.link === "" ? (
             <button className={`btn-events ${props.reg}`}>
-              {props.reg === "start" ? "Coming soon" : "Registeration Closed"}
+              {props.ans === "close" ? "Registeration Closed" : ""}
+              {props.reg === "start" ? "end" : "Coming Soon"}
             </button>
           ) : (
             <a href={props.link} target="_blank" rel="noreferrer">
