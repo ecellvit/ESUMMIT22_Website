@@ -32,7 +32,7 @@ function AboutUs() {
       </div>
       <div className="random">
         <p data-aos="zoom-in" className="aboutus__aboutusinfo">
-          Entrepreneurship Cell is a student body based in VIT Vellore which
+          Entrepreneurship Cell is a Student based Club functioning under Office of Students &#39 Welfare, VIT Vellore which
           aims at fostering entrepreneurial spirit amongst young aspirants by
           providing them with a platform and required resources for actuating
           their ideas into successful business ventures. E-Cell strives to
