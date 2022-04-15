@@ -93,6 +93,15 @@ function Event() {
                     E-Cell, VIT brings to you Impetus, a pitch deck competition designed in a way to make the inner entrepreneurs of the young minds take over their normal selves and blooming out of the chrysalis"
                   />
                 </div>
+                {/* <div data-aos="flip-right">
+                  <EventCard
+                    head="Emanate"
+                    link=""
+                    tagline="Business Plan Competition"
+                    reg="end"
+                    content="“Emanate” is a national level competition being organised by E-Cell, VIT in collaboration with the Ministry of Electronics and IT and VIT-TBI."
+                  />
+                </div> */}
               </li>
               
             </ul>
