@@ -30,6 +30,7 @@ import SG from "../../Assets/stockGro.png";
 import WT from "../../Assets/wizerTech.png";
 import ELM from "../../Assets/eLearnMarkets.png";
 import SHS from "../../Assets/SwasthvrittaHealthSolutions.png";
+import CB from "../../Assets/cheezyBurgers.jpeg"
 import "./Sponsors.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -60,13 +61,13 @@ function Sponsors() {
           target="_blank"
           rel="noreferrer"
         >
-          <a href="https://devfolio.co/" target="_blank" rel="noreferrer">
+          <a href="https://instagram.com/stock_gro?igshid=YmMyMTA2M2Y=" target="_blank" rel="noreferrer">
             <img src={SG} alt="Sponsor Logo" />
           </a>
         </div>
         <div data-aos="flip-up" className="grid-item">
           <a
-            href="https://wharfstreetstrategies.com/"
+            href=""
             target="_blank"
             rel="noreferrer"
           >
@@ -74,20 +75,20 @@ function Sponsors() {
           </a>
         </div>
         <div data-aos="flip-up" className="grid-item">
-          <a href="https://xinfin.org/" target="_blank" rel="noreferrer">
+          <a href="" target="_blank" rel="noreferrer">
             <img src={ELM} alt="Sponsor Logo" />
           </a>
         </div>
         <div data-aos="flip-up" className="grid-item">
-          <a href="https://www.portis.io/" target="_blank" rel="noreferrer">
+          <a href="" target="_blank" rel="noreferrer">
             <img src={SHS} alt="Sponsor Logo" />
           </a>
         </div>
-        {/* <div data-aos="flip-up" className="grid-item">
-          <a href="https://celo.org/" target="_blank" rel="noreferrer">
-            <img src={CE} alt="Sponsor Logo" />
+        <div data-aos="flip-up" className="grid-item">
+          <a href="https://instagram.com/cjbvellore?igshid=YmMyMTA2M2Y=" target="_blank" rel="noreferrer">
+            <img src={CB} alt="Sponsor Logo" />
           </a>
-        </div> */}
+        </div>
         {/* <div data-aos="flip-up" className="grid-item">
           <a href="https://tezos.com/" target="_blank" rel="noreferrer">
             <img src={TZ} alt="Sponsor Logo" />
