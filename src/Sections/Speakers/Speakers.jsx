@@ -77,9 +77,9 @@ function Speakers() {
               <img src={alok} alt="Speaker" />
               <div className="speaker-detail">
                 <div>Alok Garodia</div>
-                <div>Ex CFO, JCB</div>
+                <div> Angel Investor and Advisor to Startups </div>
                 <div>
-                  Lenovo, Nike in India, Angel Investor and Advisor to Startups
+                 VP JCB, Ex CFO Lenovo, Nike in India, 
                 </div>
               </div>
             </div>
