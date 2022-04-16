@@ -1,36 +1,36 @@
 import React, { useEffect } from "react";
-import AW from "../../Assets/AWS.png";
-import DF from "../../Assets/Devfolio.png";
-import WS from "../../Assets/WSS.png";
-import XF from "../../Assets/XDC.png";
-import PY from "../../Assets/Polygon.png";
-import TZ from "../../Assets/Tezos.png";
-import CE from "../../Assets/Celo.png";
-import PO from "../../Assets/Portis.png";
-import LW from "../../Assets/LWT.png";
-import DS from "../../Assets/DSIJ.png";
-import EL from "../../Assets/ELM.png";
-import SE from "../../Assets/StockEdge.png";
-import DZ from "../../Assets/Drinkzy.jpg";
-import LB from "../../Assets/LondonBubble.png";
-import GMC from "../../Assets/GMC.png";
-import NP from "../../Assets/NutriPanda.jpg";
-import SR from "../../Assets/scripts.png";
-import IB from "../../Assets/InterviewBuddy.png";
-import FP from "../../Assets/Fampay.PNG";
-import CF from "../../Assets/CFC.png";
-import VS from "../../Assets/vitspot.png";
-import XE from "../../Assets/100x.jpeg";
-import YI from "../../Assets/youth.jpeg";
-import GO from "../../Assets/grabon.png";
-import EH from "../../Assets/egghead.png";
-import OT from "../../Assets/ontribe.png";
+// import AW from "../../Assets/AWS.png";
+// import DF from "../../Assets/Devfolio.png";
+// import WS from "../../Assets/WSS.png";
+// import XF from "../../Assets/XDC.png";
+// import PY from "../../Assets/Polygon.png";
+// import TZ from "../../Assets/Tezos.png";
+// import CE from "../../Assets/Celo.png";
+// import PO from "../../Assets/Portis.png";
+// import LW from "../../Assets/LWT.png";
+// import DS from "../../Assets/DSIJ.png";
+// import EL from "../../Assets/ELM.png";
+// import SE from "../../Assets/StockEdge.png";
+// import DZ from "../../Assets/Drinkzy.jpg";
+// import LB from "../../Assets/LondonBubble.png";
+// import GMC from "../../Assets/GMC.png";
+// import NP from "../../Assets/NutriPanda.jpg";
+// import SR from "../../Assets/scripts.png";
+// import IB from "../../Assets/InterviewBuddy.png";
+// import FP from "../../Assets/Fampay.PNG";
+// import CF from "../../Assets/CFC.png";
+// import VS from "../../Assets/vitspot.png";
+// import XE from "../../Assets/100x.jpeg";
+// import YI from "../../Assets/youth.jpeg";
+// import GO from "../../Assets/grabon.png";
+// import EH from "../../Assets/egghead.png";
+// import OT from "../../Assets/ontribe.png";
 import MT from "../../Assets/mircrotone.png";
 import SG from "../../Assets/stockGro.png";
 import WT from "../../Assets/wizerTech.png";
 import ELM from "../../Assets/eLearnMarkets.png";
 import SHS from "../../Assets/SwasthvrittaHealthSolutions.png";
-import CB from "../../Assets/cheezyBurgers.jpeg"
+import CB from "../../Assets/cheezyBurgers.jpeg";
 import "./Sponsors.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -61,21 +61,25 @@ function Sponsors() {
           target="_blank"
           rel="noreferrer"
         >
-          <a href="https://instagram.com/stock_gro?igshid=YmMyMTA2M2Y=" target="_blank" rel="noreferrer">
+          <a
+            href="https://instagram.com/stock_gro?igshid=YmMyMTA2M2Y="
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={SG} alt="Sponsor Logo" />
           </a>
         </div>
         <div data-aos="flip-up" className="grid-item">
-          <a
-            href=""
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://wizertech.com/" target="_blank" rel="noreferrer">
             <img src={WT} alt="Sponsor Logo" />
           </a>
         </div>
         <div data-aos="flip-up" className="grid-item">
-          <a href="" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.elearnmarkets.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={ELM} alt="Sponsor Logo" />
           </a>
         </div>
@@ -85,7 +89,11 @@ function Sponsors() {
           </a>
         </div>
         <div data-aos="flip-up" className="grid-item">
-          <a href="https://instagram.com/cjbvellore?igshid=YmMyMTA2M2Y=" target="_blank" rel="noreferrer">
+          <a
+            href="https://instagram.com/cjbvellore?igshid=YmMyMTA2M2Y="
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={CB} alt="Sponsor Logo" />
           </a>
         </div>
