@@ -4,6 +4,9 @@ import "react-multi-carousel/lib/styles.css";
 import "./Speakers.css";
 import abhi from "../../Assets/abhi.jpg";
 import aman from "../../Assets/aman.jpg";
+import arjun from "../../Assets/arjun.JPG";
+import alok from "../../Assets/alok.jpg";
+import vishal from "../../Assets/vishal.jpg";
 import dk from "../../Assets/dk.jpeg";
 import neha from "../../Assets/neha.jpeg";
 import poonam from "../../Assets/poonam.jpg";
@@ -18,7 +21,7 @@ function Speakers() {
   return (
     <div id="speakers">
       <div data-aos="flip-left" className="separator">
-        <span>Past Speakers</span>
+        <span>Speakers</span>
       </div>
       <div className="carousel">
         <Carousel
@@ -71,35 +74,37 @@ function Speakers() {
         >
           <div className="speaker-item">
             <div className="speaker-card">
-              <img src={abhi} alt="Speaker" />
+              <img src={arjun} alt="Speaker" />
               <div className="speaker-detail">
-                <div>Abhinav Aurora</div>
-                <div>Co-founder</div>
-                <div>Avalon Meta</div>
+                <div>Arjun Majumdar</div>
+                <div>Founder, CEO</div>
+                <div>Indiahikes</div>
               </div>
             </div>
           </div>
           <div className="speaker-item">
             <div className="speaker-card">
-              <img src={aman} alt="Speaker" />
+              <img src={alok} alt="Speaker" />
               <div className="speaker-detail">
-                <div>Aman Dhattarwal</div>
-                <div>Youtuber &amp; Founder</div>
-                <div>Apni Kaksha</div>
+                <div>Alok Garodia</div>
+                <div>Ex CFO, JCB</div>
+                <div>
+                  Lenovo, Nike in India, Angel Investor and Advisor to Startups
+                </div>
               </div>
             </div>
           </div>
           <div className="speaker-item">
             <div className="speaker-card">
-              <img src={dk} alt="Speaker" />
+              <img src={vishal} alt="Speaker" />
               <div className="speaker-detail">
-                <div>Deepak Pareek</div>
-                <div>Co-Founder</div>
-                <div>Career Keeda</div>
+                <div>Mr. Vishal Nair</div>
+                <div>Co-founder and Director</div>
+                <div>LightNSalt</div>
               </div>
             </div>
           </div>
-          <div className="speaker-item">
+          {/* <div className="speaker-item">
             <div className="speaker-card">
               <img src={neha} alt="Speaker" />
               <div className="speaker-detail">
@@ -128,7 +133,7 @@ function Speakers() {
                 <div>ROI Overload | The Success Story Podcast</div>
               </div>
             </div>
-          </div>
+          </div> */}
         </Carousel>
       </div>
     </div>
