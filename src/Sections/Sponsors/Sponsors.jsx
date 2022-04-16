@@ -30,7 +30,7 @@ import SG from "../../Assets/stockGro.png";
 import WT from "../../Assets/wizerTech.png";
 import ELM from "../../Assets/eLearnMarkets.png";
 import SHS from "../../Assets/SwasthvrittaHealthSolutions.png";
-import CB from "../../Assets/cheezyBurgers.jpeg";
+import CB from "../../Assets/cheezyBurgers1.png";
 import "./Sponsors.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
