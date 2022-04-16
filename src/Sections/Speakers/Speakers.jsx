@@ -74,16 +74,6 @@ function Speakers() {
         >
           <div className="speaker-item">
             <div className="speaker-card">
-              <img src={arjun} alt="Speaker" />
-              <div className="speaker-detail">
-                <div>Arjun Majumdar</div>
-                <div>Founder, CEO</div>
-                <div>Indiahikes</div>
-              </div>
-            </div>
-          </div>
-          <div className="speaker-item">
-            <div className="speaker-card">
               <img src={alok} alt="Speaker" />
               <div className="speaker-detail">
                 <div>Alok Garodia</div>
@@ -96,11 +86,21 @@ function Speakers() {
           </div>
           <div className="speaker-item">
             <div className="speaker-card">
-              <img src={vishal} alt="Speaker" />
+              <img src={arjun} alt="Speaker" />
+              <div className="speaker-detail">
+                <div>Arjun Majumdar</div>
+                <div>Founder, CEO</div>
+                <div>Indiahikes</div>
+              </div>
+            </div>
+          </div>
+          <div className="speaker-item">
+            <div className="speaker-card">
+              <img className="vishal-nair__image" src={vishal} alt="Speaker" />
               <div className="speaker-detail">
                 <div>Mr. Vishal Nair</div>
                 <div>Co-founder and Director</div>
-                <div>LightNSalt</div>
+                <div>LightNSalt (VisionX)</div>
               </div>
             </div>
           </div>
