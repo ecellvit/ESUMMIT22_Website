@@ -4,7 +4,7 @@ import "react-multi-carousel/lib/styles.css";
 import "./Speakers.css";
 import abhi from "../../Assets/abhi.jpg";
 import aman from "../../Assets/aman.jpg";
-import arjun from "../../Assets/arjun.JPG";
+import arjun from "../../Assets/arjun.jfif";
 import alok from "../../Assets/alok.jpg";
 import vishal from "../../Assets/vishal.jpg";
 import dk from "../../Assets/dk.jpeg";
