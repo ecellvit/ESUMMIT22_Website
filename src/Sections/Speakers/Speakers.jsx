@@ -79,8 +79,9 @@ function Speakers() {
                 <div>Alok Garodia</div>
                 <div> Angel Investor and Advisor to Startups </div>
                 <div>
-                 VP JCB, Ex CFO Lenovo, Nike in India, 
+                 VP JCB, Ex CFO Lenovo, 
                 </div>
+                <div>Nike in India</div>
               </div>
             </div>
           </div>
