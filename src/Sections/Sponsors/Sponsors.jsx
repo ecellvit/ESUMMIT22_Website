@@ -84,7 +84,11 @@ function Sponsors() {
           </a>
         </div>
         <div data-aos="flip-up" className="grid-item">
-          <a href="" target="_blank" rel="noreferrer">
+          <a
+            href="https://instagram.com/swasthvritta?igshid=YmMyMTA2M2Y="
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={SHS} alt="Sponsor Logo" />
           </a>
         </div>
