@@ -6,6 +6,7 @@ import abhi from "../../Assets/abhi.jpg";
 import aman from "../../Assets/aman.jpg";
 import arjun from "../../Assets/arjun.jfif";
 import alok from "../../Assets/alok.jpg";
+import uday from "../../Assets/uday.jpg";
 import vishal from "../../Assets/vishal.jpg";
 import dk from "../../Assets/dk.jpeg";
 import neha from "../../Assets/neha.jpeg";
@@ -102,6 +103,16 @@ function Speakers() {
                 <div>Mr. Vishal Nair</div>
                 <div>Co-founder and Director</div>
                 <div>LightNSalt (VisionX)</div>
+              </div>
+            </div>
+          </div>
+          <div className="speaker-item">
+            <div className="speaker-card">
+              <img className="uday-birje__image" src={uday} alt="Speaker" />
+              <div className="speaker-detail">
+                <div>Mr. Uday Birje</div>
+                <div>Co-founder and Director</div>
+                <div>ThinkStreet Technologies</div>
               </div>
             </div>
           </div>
