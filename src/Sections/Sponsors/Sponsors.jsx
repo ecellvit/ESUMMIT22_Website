@@ -23,7 +23,7 @@ import WSS from "../../Assets/WSS2.png";
 // import XE from "../../Assets/100x.jpeg";
 // import YI from "../../Assets/youth.jpeg";
 // import GO from "../../Assets/grabon.png";
-// import EH from "../../Assets/egghead.png";
+import PC from "../../Assets/precognitive.png";
 import NP from "../../Assets/nutripanda.png";
 import MT from "../../Assets/mircrotone.png";
 import SG from "../../Assets/stockGro.png";
@@ -121,12 +121,16 @@ function Sponsors() {
             <img src={NP} alt="Sponsor Logo" />
           </a>
         </div>
-        {/* <div data-aos="flip-up" className="grid-item">
-          <a href="https://www.dsij.in/" target="_blank" rel="noreferrer">
-            <img src={DS} alt="Sponsor Logo" />
+        <div data-aos="flip-up" className="grid-item">
+          <a
+            href="http://www.precognitive.in/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={PC} alt="Sponsor Logo" />
           </a>
         </div>
-        <div data-aos="flip-up" className="grid-item">
+        {/* <div data-aos="flip-up" className="grid-item">
           <a
             href="https://www.elearnmarkets.com/"
             target="_blank"
