@@ -116,6 +116,16 @@ function Speakers() {
               </div>
             </div>
           </div>
+           <div className="speaker-item">
+            <div className="speaker-card">
+              <img className="meghna_saraogi__image" src={meghna} alt="Speaker" />
+              <div className="speaker-detail">
+                <div>Meghna Saraogi</div>
+                <div>Co-founder and CEO</div>
+                <div>MirrAR (StyleDotMe)</div>
+              </div>
+            </div>
+          </div>
           {/* <div className="speaker-item">
             <div className="speaker-card">
               <img src={neha} alt="Speaker" />
