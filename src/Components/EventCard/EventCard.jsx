@@ -23,11 +23,13 @@ function EventCard(props) {
           </p>
           {props.link === "" ? (
             <button className={`btn-events ${props.reg}`}>
-              {props.reg === "start" ? "Coming soon" : "Registeration Closed"}
+              {props.reg === "start" ? "Coming soon" : "Registrations Closed"}
             </button>
           ) : (
             <a href={props.link} target="_blank" rel="noreferrer">
-              <button className={`btn-events pointerhover`}>{props.reg === "start" ? "Register" : "Registeration Closed"}</button>
+              <button className={`btn-events pointerhover`}>
+                {props.reg === "start" ? "Register" : "Registrations Closed"}
+              </button>
             </a>
           )}
         </div>

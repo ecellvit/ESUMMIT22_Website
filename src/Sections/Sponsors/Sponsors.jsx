@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 // import AW from "../../Assets/AWS.png";
 // import DF from "../../Assets/Devfolio.png";
-// import WS from "../../Assets/WSS.png";
+import WSS from "../../Assets/WSS2.png";
 // import XF from "../../Assets/XDC.png";
 // import PY from "../../Assets/Polygon.png";
 // import TZ from "../../Assets/Tezos.png";
@@ -107,15 +107,15 @@ function Sponsors() {
             <img src={KT} alt="Sponsor Logo" />
           </a>
         </div>
-        {/* <div data-aos="flip-up" className="grid-item">
+        <div data-aos="flip-up" className="grid-item">
           <a
-            href="https://www.polygon.technology/"
+            href="https://wharfstreetstudios.com/"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={PY} alt="Sponsor Logo" />
+            <img src={WSS} alt="Sponsor Logo" />
           </a>
-        </div> */}
+        </div>
         {/* <div data-aos="flip-up" className="grid-item">
           <a
             href="https://learningwhiletravelling.com/"
