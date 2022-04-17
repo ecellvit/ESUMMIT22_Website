@@ -7,6 +7,7 @@ import aman from "../../Assets/aman.jpg";
 import arjun from "../../Assets/arjun.jfif";
 import alok from "../../Assets/alok.jpg";
 import uday from "../../Assets/uday.jpg";
+import meghna from "../../Assets/gh.jpg";
 import vishal from "../../Assets/vishal.jpg";
 import dk from "../../Assets/dk.jpeg";
 import neha from "../../Assets/neha.jpeg";
