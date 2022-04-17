@@ -63,7 +63,7 @@ function Event() {
                     head="VisionX"
                     link="https://bit.ly/Vision-XRegistration"
                     tagline="Envisioning a utopian odyssey of pioneering technology"
-                    reg="start"
+                    reg="end"
                     content="Visualize a single platform, with all the bibles of Business accessible. 
                     A workshop that starts from the E and ends at the P of Entrepreneurship. 
                     A verbally orated manual, VisionX guides every aspiring entrepreneur through all the possibly thinkable obstacles of the tricky terrain of becoming a professional. 
