@@ -24,13 +24,13 @@ import WSS from "../../Assets/WSS2.png";
 // import YI from "../../Assets/youth.jpeg";
 // import GO from "../../Assets/grabon.png";
 // import EH from "../../Assets/egghead.png";
-// import OT from "../../Assets/ontribe.png";
+import NP from "../../Assets/nutripanda.png";
 import MT from "../../Assets/mircrotone.png";
 import SG from "../../Assets/stockGro.png";
 import WT from "../../Assets/wizerTech.png";
 import ELM from "../../Assets/eLearnMarkets.png";
 import SHS from "../../Assets/SwasthvrittaHealthSolutions.png";
-import CB from "../../Assets/cheezyBurgers1.png";
+import CB from "../../Assets/cheezyBurgers3.png";
 import KT from "../../Assets/Krypto.png";
 import "./Sponsors.css";
 import Aos from "aos";
@@ -116,16 +116,12 @@ function Sponsors() {
             <img src={WSS} alt="Sponsor Logo" />
           </a>
         </div>
-        {/* <div data-aos="flip-up" className="grid-item">
-          <a
-            href="https://learningwhiletravelling.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={LW} alt="Sponsor Logo" />
+        <div data-aos="flip-up" className="grid-item">
+          <a href="https://www.nutripanda.in" target="_blank" rel="noreferrer">
+            <img src={NP} alt="Sponsor Logo" />
           </a>
         </div>
-        <div data-aos="flip-up" className="grid-item">
+        {/* <div data-aos="flip-up" className="grid-item">
           <a href="https://www.dsij.in/" target="_blank" rel="noreferrer">
             <img src={DS} alt="Sponsor Logo" />
           </a>
